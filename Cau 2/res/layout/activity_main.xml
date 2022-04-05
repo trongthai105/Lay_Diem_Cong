@@ -46,12 +46,12 @@
         android:id="@+id/btnTinh"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CALCULATOR YOUR TIP"
-        app:layout_constraintTop_toBottomOf="@id/RadioGroup"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginRight="20dp"
         android:layout_marginTop="50dp"
-        >
+        android:layout_marginRight="20dp"
+        android:onClick="OnButtonClick"
+        android:text="CALCULATOR YOUR TIP"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/RadioGroup">
 
     </Button>
   </androidx.constraintlayout.widget.ConstraintLayout>
